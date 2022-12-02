@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(250,250,250);
+}
+
+.mockup img{
+    position: relative;
+    width: 432px;
+    margin-top: 20px;
+    margin-right: 32px;
+    display: flex;
+    left: 320px;
+
+}
+
+.register {
+    position: relative;
+    width: 355px;
+    height: 400px;
+    background-color: white;
+    display: flex-end;
+    left: 770px;
+    bottom: 585px;
+    border: 1px solid lightgrey;
+}
+
+.facebook {
+    position: relative;
+    width: 325px;
+    bottom: 35px;
+}
+
+.register img {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-top: 40px;
+    background-color: white;
+}
+
+.input {
+    position: relative;
+    display: block;
+    margin-bottom: 20px;
+    margin-left: 45px;
+    justify-content: center;
+    top: 35px;
+    background-color: white;
+    
+}
+
+.field{
+    border: 1px solid lightgrey;
+    width: 263px;
+    height: 36px;
+    margin-top: 5px;
+    border-radius: 2px;
+    font-size: 12px;
+    padding-left: 8px;
+}
+
+.login {
+    position: relative;
+    margin-top: 30px;
+    width: 272px;
+    height: 33px;
+    margin-left: 45px;
+    border-radius: 2px;
+    border: none;
+    background-color: rgb(0, 149, 246);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.signup {
+    position: relative;
+    background-color: white;
+    border: 1px solid lightgrey;
+    width: 355px;
+    height: 58px;
+    left: 209px;
+    bottom: 570px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.signup h4, a {
+    position: relative;
+    background-color: white;
+    margin-top: 18px;
+    font-weight: lighter;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 149, 246);
+    font-weight: bold;
+}
+
+.apps h4{
+    position: relative;
+    left: 900px;
+    bottom: 555px;
+    font-weight: lighter;
+    margin-bottom: 15px;
+}
+
+.apps img {
+    position: relative;
+    width: 135px;
+    left: 800px;
+    bottom: 550px;
+}
+
+.help p {
+    position: relative;
+    left: 350px;
+    bottom: 500px;
+    font-size: 12px;
+    font-weight: lighter;
+    
+}

@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin:0;
+    font-size: 12px;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Helvetica, sans-serif;
+}
+
+.card {
+    position: relative;
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.03);
+    width: 95px;
+    height: 90px;
+    padding: 10px;
+    top: 100px;
+    left: 310px;
+    margin-left: -10px;
+    background-color: white;
+    border-radius: 5px;
+    display: inline-block;
+
+}
+
+.stories{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+
+.stories img{
+    position: relative;
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    object-fit: cover;
+    display: inline;
+    margin-left: 0px;
+    align-items: flex-end;
+    display: inline-block;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 50px; 
+    border: 3px solid transparent;
+    background: linear-gradient(45deg,rgb(255, 197, 90),rgb(166, 0, 166)) border-box,
+      linear-gradient(#fff 0 0) padding-box, 
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: destination-out;
+    mask-composite: exclude;
+}
+
+.stories :hover{
+    transform: scale(1.1,1.1);
+    cursor: pointer;
+}

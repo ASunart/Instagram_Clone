@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.register {
+    position: relative;
+    width: 355px;
+    height: 620px;
+    background-color: white;
+    display: flex-end;
+    border: 1px solid lightgrey;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.register img {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-top: 30px;
+    background-color: white;
+}
+
+.facebook {
+    justify-content: center;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    background-color: white;
+}
+
+.input {
+    position: relative;
+    display: block;
+    margin-bottom: 20px;
+    margin-left: 45px;
+    justify-content: center;
+    top: 10px;
+    background-color: white;
+    
+}
+
+.field{
+    border: 1px solid lightgrey;
+    width: 263px;
+    height: 36px;
+    margin-top: 5px;
+    border-radius: 2px;
+    font-size: 12px;
+    padding-left: 8px;
+}
+
+.login {
+    position: relative;
+    margin-top: 30px;
+    width: 272px;
+    height: 33px;
+    margin-left: 45px;
+    border-radius: 2px;
+    border: none;
+    background-color: rgb(0, 149, 246);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.warning {
+    font-size: 12px;
+    font-weight: lighter;
+    width: 265px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    color: rgb(169, 169, 169);
+}
+
+.signup {
+    position: relative;
+    background-color: white;
+    border: 1px solid lightgrey;
+    width: 355px;
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.signup h4, a {
+    position: relative;
+    background-color: white;
+    margin-top: 18px;
+    font-weight: lighter;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 149, 246);
+    font-weight: bold;
+}
+
+.apps h4{
+    position: relative;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    font-weight: lighter;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    left: 700px;
+}
+
+.apps img {
+    position: relative;
+    width: 135px;
+    left: 600px;
+}
+
+.help p {
+    position: relative;
+    left: 430px;
+    font-size: 12px;
+    font-weight: lighter;
+    margin-top: 30px;
+}
+
+strong {
+    font-size: 12px;
+}
+
+
